@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>CodeHelp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Mulish:wght@200&family=Rubik:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-Container">
+            <div class="Nav">
+                <div class="nav-item1">
+                    <a href="http://127.0.0.1:5500/index.html"><img
+                            src="https://codehelp.s3.ap-south-1.amazonaws.com/qdo970k2vrxj8kefd1zt_9520ff468a.svg"
+                            alt="">
+                    </a>
+                </div>
+                <div class="nav-item2">
+                    <ul>
+                        <a href="#About">
+                            <li>About Us</li>
+                        </a>
+                        <a href="#course">
+                            <li>Courses</li>
+                        </a>
+                        <a href="#Contact">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav-item3">
+                    <button>Dashboard</button>
+                    <button id="login">Login <i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+                    <i class="fa-2x fa-regular fa-moon"></i>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+
+
+
+    <main>
+
+        <section class="home-main">
+            <div class="home-section1" data-aos="fade-right" data-aos-duration="1200">
+                <h1> <span>Learn</span> With Love Babbar</h1>
+                <p>The Ultimate Guide To Ace <br> SDE Interviews.</p>
+                <div class="home-btns">
+                    <button id="course-btn-home">View Courses</button>
+                    <button>Watch Video</button>
+                </div>
+
+                <div class="home-placement-stud">
+                    <div class="place-stud">
+                        <img src="./image/happyStu1.webp" alt="">
+                        <img src="./image/happyStu2.webp" alt="">
+                        <img src="./image/happyStu3.webp" alt="">
+                        <img src="./image/happyStu4.webp" alt="">
+                        <img src="./image/happyStu5.webp" alt="">
+                    </div>
+
+
+                    <div class="place-number">
+                        <h4>20000 +</h4>
+                        <p>Happy Students</p>
+                    </div>
+                </div>
+            </div>
+            <div class="home-section2">
+                <img src="./image/homeimg.webp" alt="Home page image">
+            </div>
+        </section>
+
+
+
+
+        <section class="Counter-main">
+            <ul>
+                <li>
+                    <h2>700K+ </h2>
+                    <p>Subscribers</p>
+                    <a href="https://www.youtube.com/@LoveBabbar" target="_blank">on Youtube</a>
+                </li>
+
+                <li>
+                    <h2>3K+</h2>
+                    <p>Followers</p>
+                    <a href="https://twitter.com/lovebabbar3" target="_blank">on Twitter</a>
+                </li>
+
+                <li>
+                    <h2>80K+</h2>
+                    <p>Followers</p>
+                    <a href="https://www.instagram.com/lovebabbar1/" target="_blank">on Instagram</a>
+                </li>
+
+                <li>
+                    <h2>260K+</h2>
+                    <p>Followers</p>
+                    <a href="https://www.linkedin.com/in/love-babbar-38ab2887/" target="_blank">on Linkedin</a>
+                </li>
+            </ul>
+        </section>
+
+
+
+        <section class="features-container">
+            <div class="features-main">
+                <h4>WHY CODE-HELP?</h4>
+                <h3>Making learning easier and</h3>
+                <h3>more convenient for you.</h3>
+
+                <div class="features-cards">
+                    <div class="card" id="card-BG1" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="card-icon">
+                            <img src="./image/sitemap.png" alt="Sitemap">
+                        </div>
+                        <h2>Data Structure </h2>
+                        <p>Data structures are the problem-solving pillars of coding. Learn all the foundational
+                            knowledge about all of the popular data structure that you need, to be well-versed in
+                            interviews.</p>
+                    </div>
+                    <div class="card" id="card-BG2">
+                        <div class="card-icon">
+                            <img src="./image/money.png" alt="Money">
+                        </div>
+                        <h2>Placement Preparation</h2>
+                        <p>Ace the placement interviews by being knowledgeable in all well-known data structures,
+                            popular problem-solving methods, and core computer sciences.</p>
+                    </div>
+                    <div class="card" id="card-BG3" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="card-icon">
+                            <img src="./image/communication.png" alt="Communication">
+                        </div>
+                        <h2>Hand Picked Question</h2>
+                        <p>Get access to hand-picked coding interview questions across categories & difficulty levels
+                            that will prepare you for every interview you would encounter.</p>
+                    </div>
+                    <div class="card" id="card-BG4" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="card-icon">
+                            <img src="./image/writing.png" alt="Writing">
+                        </div>
+                        <h2>Curated Content</h2>
+                        <p>Learn in-depth conceptual overviews, how to approach an algorithm, how to implement it & how
+                            to optimize it.</p>
+                    </div>
+                    <div class="card" id="card-BG5">
+                        <div class="card-icon">
+                            <img src="./image/certificate.png" alt="Certificate">
+                        </div>
+                        <h2>Learn from the best</h2>
+                        <p>Get access to lectures and get mentored by one of the best in the market, Love Babbar.</p>
+                    </div>
+                    <div class="card" id="card-BG6" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="card-icon">
+                            <img src="./image/reading-book.png" alt="Reading-book">
+                        </div>
+                        <h2>Learn Something new</h2>
+                        <p>Learn new concepts daily, increase your productivity & reach your full potential.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="Instructor-container" id="About" >
+            <div class="Instructor-main">
+                <div class="Instructor-info1">
+                    <h2>Meet your <span>Instructor</span></h2>
+                    <button>Know more</button>
+                </div>
+                <hr>
+
+                <div class="Instructor-info2">
+                    <img src="./image/babbar.webp" alt="">
+                    <h4>Love Babbar</h4>
+                    <p>Founder, Code-Help</p>
+                </div>
+                <div class="Instructor-info3" data-aos="fade-up" data-aos-duration="1200">
+                    <div class="amazon">
+                        <img src="./image/amazon.png" alt="">
+                        <p>Ex-Amazon, SWE</p>
+                    </div>
+                    <div class="microsoft">
+                        <img src="./image/microsoft.png" alt="">
+                        <p>Ex-Microsoft, SWE</p>
+                    </div>
+
+                    <div class="google">
+                        <img src="./image/google.png" alt="">
+                        <p>Google ASC, India</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="Instructor-hr">
+
+
+
+
+        <section class="placement-container">
+            <div class="placement-main">
+                <div class="place-sec1">
+                    <h2>PLACEMENTS</h2>
+                    <h1>Get Offers from <br> Top Companies</h1>
+                    <p>Our finest get offers from top-notch companies.</p>
+                </div>
+                <div class="place-sec2">
+                    <div class="company-image">
+                        <img src="./image/1stcompany.webp" id="imganimation1">
+                        <img src="./image/2ndcompany.webp" id="imganimation2">
+                        <img src="./image/3rdcompany.webp" id="imganimation3">
+                        <img src="./image/4rtcompany.webp" id="imganimation4">
+                        <img src="./image/5thcompany.webp" id="imganimation5">
+                        <img src="./image/6thcompany.webp" id="imganimation6">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <div class="company-image2">
+            <img src="./image/7thcompany.webp" id="imganimatin-sec1">
+            <img src="./image/8thcompany.webp" id="imganimatin-sec2">
+            <img src="./image/9thcompany.webp" id="imganimatin-sec3">
+            <img src="./image/10thcompany.webp" id="imganimatin-sec4">
+        </div>
+
+
+
+
+
+        <section class="Course-container" id="course" >
+            <h2>What would you like to <span> learn?</span></h2>
+            <div class="course-main">
+                <div class="current-course">
+                    <div class="card">
+                        <img src="./image/course1.jpg" alt="">
+                        <h4>Web Development Master Course @dot Batch</h4>
+                        <hr>
+                        <div class="course-price">
+                            <p>₹4999</p>
+                            <strike>₹6999</strike>
+                            <h4>42% off</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./image/course2.jpg" alt="">
+                        <h4>Data Structures & Algorithms BootCamp @Supreme Batch</h4>
+                        <hr>
+                        <div class="course-price">
+                            <p>₹2999</p>
+                            <strike>₹7000</strike>
+                            <h4>58% off</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./image/course3.jpg" alt="">
+                        <h4>Cracking Object Oriented Design Interviews</h4>
+                        <hr>
+                        <div class="course-price">
+                            <p>₹555</p>
+                            <strike>₹999</strike>
+                            <h4>44% off</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="course-hrMID">
+
+                <div class="Upcoming-course">
+                    <h3>Upcoming <span>Courses</span></h3>
+                    <div class="upcoming-card">
+                        <div class="card">
+                            <img src="./image/course4.jpg" alt="">
+                            <h4>Master Course On Recursion And Backtracking</h4>
+                        </div>
+
+                        <div class="card">
+                            <img src="./image/course5.jpg" alt="">
+                            <h4>Master Course on Graph Algroithm</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <section>
+            <div class="review-conatiner">
+                <div class="review-heading">
+
+                    <div class="review-head">
+                        <h2>WHAT STUDENT SAYS</h2> <span>Recent Reviews</span>
+                    </div>
+
+                    <div class="review-btns">
+                        <button><img src="./image/back.png" alt=""></button>
+                        <button id="review-next-btn"><img src="./image/next.png" alt=""></button>
+                    </div>
+                </div>
+
+                <hr class="review-heading-hr">
+
+                <div class="review-main">
+                    <div class="review-boxs">
+                        <div class="box">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo non deserunt animi,
+                                facilis sequi nisi, accusantium aperiam minima, expedita illum voluptates quia voluptas
+                                officia vel amet incidunt. Hic, saepe cum.</p>
+
+                            <div class="review-profile">
+                                <div class="profile-1">
+                                    <img src="./image/review1.webp">
+                                    <div class="profile-name">
+                                        <h3>Anagh kanungo</h3>
+                                        <p>Recursion and Backtracking</p>
+                                    </div>
+                                </div>
+                                <div class="profile-star">
+                                    <img src="./image/star.png">
+                                    <img src="./image/star.png">
+                                    <img src="./image/star.png">
+                                    <img src="./image/star.png">
+                                    <img src="./image/star.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo non deserunt animi,
+                                facilis sequi nisi, accusantium aperiam minima, expedita illum voluptates quia voluptas
+                                officia vel amet incidunt. Hic, saepe cum.</p>
+
+                            <div class="review-profile">
+                                <div class="profile-1">
+                                    <img src="./image/review2.webp">
+                                    <div class="profile-name">
+                                        <h3>Bhoomi Vaswani</h3>
+                                        <p>DSA Batch</p>
+                                    </div>
+                                </div>
+                                <div class="profile-star">
+                                    <img src="./image/star.png" alt="">
+                                    <img src="./image/star.png" alt="">
+                                    <img src="./image/star.png" alt="">
+                                    <img src="./image/star.png" alt="">
+                                    <img src="./image/star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo non deserunt animi,
+                                facilis sequi nisi, accusantium aperiam minima, expedita illum voluptates quia voluptas
+                                officia vel amet incidunt. Hic, saepe cum.</p>
+
+                            <div class="review-profile">
+                                <div class="profile-1">
+                                    <img src="./image/review3.webp">
+                                    <div class="profile-name">
+                                        <h3>Swastik Vasistha</h3>
+                                        <p>DSA course</p>
+                                    </div>
+                                </div>
+                                <div class="profile-star">
+                                    <img src="./image/star.png" alt="">
+                                    <img src="./image/star.png" alt="">
+                                    <img src="./image/star.png" alt="">
+                                    <img src="./image/star.png" alt="">
+                                    <img src="./image/star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section id="Contact" > 
+            <div class="family-hr-div" >
+                <hr class="family-hr">
+            </div>
+
+            <div class="family-container">
+                <div class="family-main">
+                    <div class="family-heading">
+                        <h1>Join our Coding family</h1>
+                        <p>If you would like to keep up on the latest posts and courses,
+                            come by and connect with us on the following links.</p>
+                    </div>
+                    <div class="family-link">
+                        <div class="links">
+                            <div class="link" id="links1">
+                                <a href="https://www.youtube.com/@LoveBabbar" target="_blank"><img
+                                        src="./image/youtubelogo.webp" alt="youtube"></a>
+                                <div class="link-text">
+                                    <a href="https://www.youtube.com/@LoveBabbar" target="_blank"><i
+                                            class="fa-solid fa-up-right-from-square"></i> Youtube</a>
+                                </div>
+
+                            </div>
+                            <div class="link" id="links2">
+                                <a href="https://www.linkedin.com/in/love-babbar-38ab2887/" target="_blank"><img
+                                        src="./image/linkindlogo.webp" alt="linkedin"></a>
+                                <div class="link-text">
+                                    <a href="https://www.linkedin.com/in/love-babbar-38ab2887/" target="_blank"><i
+                                            class="fa-solid fa-up-right-from-square"></i> LinkedIn</a>
+                                </div>
+
+                            </div>
+                            <div class="link" id="links3">
+                                <a href="https://discord.com/channels/795358694140280862/795358694140280868"
+                                    target="_blank"><img src="./image/discordlogo.webp" alt="discord"></a>
+                                <div class="link-text">
+                                    <a href="https://discord.com/channels/795358694140280862/795358694140280868"
+                                        target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Discord</a>
+                                </div>
+
+                            </div>
+                            <div class="link" id="links4">
+                                <a href="https://web.telegram.org/z/#-1352256816" target="_blank"><img
+                                        src="./image/telegramlogo.webp" alt="telegram"></a>
+                                <div class="link-text">
+                                    <a href="https://web.telegram.org/z/#-1352256816" target="_blank"><i
+                                            class="fa-solid fa-up-right-from-square"></i> Telegram</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+    <footer>
+
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="navegate">
+
+                    <div class="footer-heading">
+                        <img src="./image/footer-logo.svg" alt="logo">
+                        <h3>CODE HELP</h3>
+                        <p>The Ultimate Guide To Ace SDE Interviews.</p>
+                    </div>
+
+                    <div class="footer-navegate">
+                        <div class="footer-nav">
+                            <h3>MENU</h3>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Courses</li>
+                                <li>Contact</li>
+                            </ul>
+                        </div>
+                        <div class="footer-services">
+                            <h3>SERVICES</h3>
+                            <ul>
+                                <li>Privacy Policy</li>
+                                <li>Terms of use</li>
+                                <li>Refund Policy</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <hr>
+                <div class="getIn-touch">
+                    <h2>GET IN TOUCH</h2>
+                    <span>Email:</span> <a href="mailto:support@codehelp.in">support@codehelp.in</a>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="footer-copyright">
+                <div class="copyright">
+                    <p>Copyright &copy 2022 CodeHepl. All Right Reserved.</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
